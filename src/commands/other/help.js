@@ -21,7 +21,7 @@ module.exports = {
                 .setAuthor(`Help:`)
                 .setThumbnail(bot.user.displayAvatarURL) //bot avatar
                 .setTimestamp()
-                .setDescription(`The bot prefix is ${prefix} \n To get more info on a specific command, type $help command name \n Note: Most of these commands will only work in a server. \n These are the bot's commands: `)
+                .setDescription(`The bot prefix is ``${prefix}`` \n To get more info on a command, type ``s!help <command name>`` \n Note: Most of these commands will only work in a server. \n These are the bot's commands: `)
                 .addField(`Commands:`, "``8ball`` ``cat`` ``dog`` ``meme`` ``addrole`` ``ban`` ``kick`` ``mute`` ``purge`` ``removerole`` ``unmute`` ``warn`` ``botinfo`` ``helpmsg`` ``help`` ``ping`` ``serverinfo`` ``urban``");
             message.author.send(Sembed);
         }
