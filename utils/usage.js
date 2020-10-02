@@ -16,7 +16,7 @@ function fullHelp(bot, command) {
             .setDescription(`\n\n**Command:** ${inf.config.name}\n**Description:** ${inf.config.description || "No Description"}\n**Usage:** ${inf.config.usage || "No Usage"}\n**Required permissions:** ${inf.config.permissions || "Bot Owner!"}\n**Aliases:** ${inf.config.aliases || "No aliases"}`);
         return SHembed;
     } else {
-        return "That command was not found, do $help to get a list of the commands";
+        return "That command was not found, type s!help to get a list of the commands";
     }
 }
 module.exports = {
